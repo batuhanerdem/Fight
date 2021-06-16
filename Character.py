@@ -14,10 +14,5 @@ class Character():
 
 
 kevin = Character('kevin', 80, 25, 300)
-fara = Character('fara', 30, 80, 600, )
+fara = Character('fara', 30, 80, 600)
 ken = Character('ken', 50, 50, 400)
-
-characterList = list()
-characterList.append(kevin)
-characterList.append(fara)
-characterList.append(ken)
