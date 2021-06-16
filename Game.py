@@ -1,12 +1,8 @@
 from Skills import passives
 from Skills import skill
-from Skills import removeUlt
-from Skills import removeSkill
+from Skills import removeEffect
 import Features
 import Character
-
-global player1Def
-global player2Def
 
 
 def pick():
@@ -21,33 +17,36 @@ def pick():
                     '3)Fara\n')
     if select1 == '1':
         player1 = Character.kevin
-    if select1 == '2':
+    elif select1 == '2':
         player1 = Character.ken
-    if select1 == '3':
+    elif select1 == '3':
         player1 = Character.fara
+    else:
+        print("Please select 1 or 2 or 3")
+        pick()
+        return
     if select2 == '1':
         player2 = Character.kevin
-    if select2 == '2':
+    elif select2 == '2':
         player2 = Character.ken
-    if select2 == '3':
+    elif select2 == '3':
         player2 = Character.fara
+    else:
+        print("Please select 1 or 2 or 3")
+        pick()
+        return
 
     play(player1, player2)
 
 
 def game(player1, player2):  # thats where damages are calculating
-    global player2Def
-    global player1Def
 
     # passive functions that make process about characters passives.
     passives(player1)
     passives(player2)
 
-    # This checks if player1 has ult buff or not. If he has, takes it from him if the buff for 1 round.
-    if player1.ult:
-        removeUlt(player1)
-    if player1.skill2:  # same logic as ult.
-        removeSkill(player1)
+    # This checks if player1 has skill-ult buff or not. If he has, takes it from him.
+    removeEffect(player1)
     skill(player1)
     # Thats where characters are attacking normal, crit or dodging.
     if player2.dodge:  # Dont deal damage if player2.dodge is True which be arranged from passives func.
@@ -68,10 +67,7 @@ def game(player1, player2):  # thats where damages are calculating
         return
 
     # Player2 is hitting
-    if player2.ult:
-        removeUlt(player2)
-    if player2.skill2:
-        removeSkill(player2)
+    removeEffect(player2)
     skill(player2)
     if player1.dodge:
         print(f"{player1.name} is dodging {player2.name}'s attack")
@@ -92,11 +88,7 @@ def game(player1, player2):  # thats where damages are calculating
 
 def play(player1, player2):
     round = 1
-    global player1Def
-    global player2Def
-    player1Def = 0
-    player2Def = 0
-   
+
     while player1.health > 0 and player2.health > 0:
         # player1's health and rage bars
         for number in range(int(player1.health / 4)):  # loop for print player1's health
