@@ -1,8 +1,8 @@
-    This is my second game. Codes can be a bit irregular but i tried to explain what i wrote at the comment lines.
-    Hello, this is a turn based fight game with 3 characters; Kevin, Fara and Ken. All 3 character has 3 skills. Each skill costs rage except first one and you can use the skills only if you have enough rage to cast it.
-    First skill is basic attack which damages to enemy depends characters attack and enemies defence. Gains 5 rage.
-    Second skilss are changeable but most gives buff to character and applies damage. Costs 10 rage.
-    Ults are also changeable and it costs 50 rage. You can check character skills and status below:
+This is my second game. Codes can be a bit irregular but i tried to explain what i wrote at the comment lines.
+Hello, this is a turn based fight game with 3 characters; Kevin, Fara and Ken. All 3 character has 3 skills. Each skill costs rage except first one and you can use the skills only if you have enough rage to cast it.
+First skill is basic attack which damages to enemy depends characters attack and enemies defence. Gains 5 rage.
+Second skilss are changeable but most gives buff to character and applies damage. Costs 10 rage.
+Ults are also changeable and it costs 50 rage. You can check character skills and status below:
 
 
 
