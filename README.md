@@ -5,6 +5,13 @@ First skill is basic attack which damages to enemy depends characters attack and
 Second skilss are changeable but most gives buff to character and applies damage. Costs 10 rage.
 Ults are also changeable and it costs 50 rage. You can check character skills and status below:
 
+
+
+
+
+
+
+
 **********Features**********
 Every round characters gain 5 rage. First skill also gives 5 rage. Here is the champs:
 ===KEVIN===                                                                     ===FARA===
