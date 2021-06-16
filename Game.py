@@ -96,8 +96,7 @@ def play(player1, player2):
     global player2Def
     player1Def = 0
     player2Def = 0
-    damage1 = player1.attack
-    damage2 = player2.attack
+   
     while player1.health > 0 and player2.health > 0:
         # player1's health and rage bars
         for number in range(int(player1.health / 4)):  # loop for print player1's health
