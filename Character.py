@@ -1,5 +1,6 @@
 class Character():
-    def __init__(self, name, attack, deffence, health, passive=True, crit=False, dodge=False, rage=0, skill2=False, ult=False):
+    def __init__(self, name, attack, deffence, health, passive=True, crit=False, dodge=False, rage=0, skill2=False,
+                 ult=False):
         self.name = name
         self.attack = attack
         self.deffence = deffence
@@ -8,8 +9,8 @@ class Character():
         self.crit = crit
         self.dodge = dodge
         self.rage = rage
-        self.skill2=skill2
-        self.ult=ult
+        self.skill2 = skill2
+        self.ult = ult
 
 
 kevin = Character('kevin', 80, 25, 300)
