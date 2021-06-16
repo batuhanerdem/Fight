@@ -35,7 +35,7 @@ def pick():
     play(player1, player2)
 
 
-def game(player1, player2, damage1, damage2):  # thats where damages are calculating
+def game(player1, player2):  # thats where damages are calculating
     global player2Def
     global player1Def
 
@@ -115,7 +115,7 @@ def play(player1, player2):
         print(f"{player2.rage} - rage")
 
         print(f'=========ROUND {round}==========')
-        game(player1, player2, damage1, damage2)
+        game(player1, player2)
         round += 1
 
 
