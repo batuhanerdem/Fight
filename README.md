@@ -13,24 +13,24 @@ Ults are also changeable and it costs 50 rage. You can check character skills an
 
                                   **********Features**********
     Every round characters gain 5 rage. First skill also gives 5 rage. Here is the champs:
-    ===KEVIN===                                                     ===FARA===
-    Attack: 80                                                      Attack: 30
-    Defence: 25                                                     Defence: 80
-    Hp: 300                                                         Hp: 600
-    Passive: %20 crit chance                                        Passive: %20 dodge chance
-    Active passive: 2x attack below %50 hp                          Active passive: 2x defence below %50 hp
-    Skill1: basic attack, gives 5 rage                              Skill1: basic attack, gives 5 rage
-    Skill2: 2x attack for 1 round, costs 10 rage                    Skill2: 1.5x defence for 1 round, hits basic, costs 10 rage
-    Ult: 4x attack for 1 round, costs 50 rage                       Ult: Backs to full hp
+    ===KEVIN===                                                  ===FARA===
+    Attack: 80                                                   Attack: 30
+    Defence: 25                                                  Defence: 80
+    Hp: 300                                                      Hp: 600
+    Passive: %20 crit chance                                     Passive: %20 dodge chance
+    Active passive: 2x attack below %50 hp                       Active passive: 2x defence below %50 hp
+    Skill1: basic attack, gives 5 rage                           Skill1: basic attack, gives 5 rage
+    Skill2: 2x attack for 1 round, costs 10 rage                 Skill2: 1.5x defence for 1 round, hits basic, costs 10 rage
+    Ult: 4x attack for 1 round, costs 50 rage                    Ult: Backs to full hp
                                       
                                       
                                       
-                                          ===KEN===                                     
-                                          Attack: 50
-                                          Defence: 50
-                                          Hp: 400
-                                          Passive: %10 crit chance and %10 dodge chance
-                                          Active passive: 1.5x attack and 1.5x defence below %50 hp
-                                          Skill1: basic attack, gives 5 rage
-                                          Skill2: +50 hp and basic attack, costs 10 rage
-                                          Ult: 1.5 x attack and 1.5x defence for 1 round, costs 50 rage
+                                        ===KEN===                                     
+                                        Attack: 50
+                                        Defence: 50
+                                        Hp: 400
+                                        Passive: %10 crit chance and %10 dodge chance
+                                        Active passive: 1.5x attack and 1.5x defence below %50 hp
+                                        Skill1: basic attack, gives 5 rage
+                                        Skill2: +50 hp and basic attack, costs 10 rage
+                                        Ult: 1.5 x attack and 1.5x defence for 1 round, costs 50 rage
