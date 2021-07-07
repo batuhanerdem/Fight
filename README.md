@@ -13,15 +13,15 @@ Ults are also changeable and it costs 50 rage. You can check character skills an
 
                                   **********Features**********
     Every round characters gain 5 rage. First skill also gives 5 rage. Here is the champs:
- ===KEVIN===                                               ===FARA===
- Attack: 80                                                Attack: 30
- Defence: 25                                               Defence: 80
- Hp: 300                                                   Hp: 600
- Passive: %20 crit chance                                  Passive: %20 dodge chance
- Active passive: 2x attack below %50 hp                    Active passive: 2x defence below %50 hp
- Skill1: basic attack, gives 5 rage                        Skill1: basic attack, gives 5 rage
- Skill2: 2x attack for 1 round, costs 10 rage              Skill2: 1.5x defence for 1 round, hits basic, costs 10 rage
- Ult: 4x attack for 1 round, costs 50 rage                 Ult: Backs to full hp
+    ===KEVIN===                                              ===FARA===
+    Attack: 80                                               Attack: 30
+    Defence: 25                                              Defence: 80
+    Hp: 300                                                  Hp: 600
+    Passive: %20 crit chance                                 Passive: %20 dodge chance
+    Active passive: 2x attack below %50 hp                   Active passive: 2x defence below %50 hp
+    Skill1: basic attack, gives 5 rage                       Skill1: basic attack, gives 5 rage
+    Skill2: 2x attack for 1 round, costs 10 rage             Skill2: 1.5x defence for 1 round, hits basic, costs 10 rage
+    Ult: 4x attack for 1 round, costs 50 rage                Ult: Backs to full hp
                                       
                                       
                                       
